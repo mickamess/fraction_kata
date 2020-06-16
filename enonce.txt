@@ -1,0 +1,16 @@
+Write a program that implements the addition of fractions. A Fraction is a value object, once created it cannot be mutated. 
+The `add method must return a new Fraction instance. 
+
+Fractions must be reduced.
+
+
+
+An implementation of the greatest common divisor (GCD) is provided:
+
+
+
+static int gcd(int a, int b){
+  
+  return b == 0 ? a : gcd(b, a % b); 
+
+}
